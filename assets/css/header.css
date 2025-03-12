@@ -1,0 +1,47 @@
+:root {
+    font-size: 14px;
+}
+
+header {
+    width: 100vw;
+    height: 4rem;
+    background-color: var(--background-color-menu);
+    
+}
+
+nav {
+    padding: 0.57rem 1.71rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav input {
+    width: 348px;
+    height: 40px;
+    border: 1px solid var(--border-color);
+}
+
+.left-container,
+.middle-container,
+.search-container,
+.right-container {
+    display: flex;
+    align-items: center;
+}
+
+.left-container {
+    gap: 2.28rem;
+}
+
+.search-container {
+    width: 57px;
+    height: 40px;
+    background-color: #f8f8f8;
+    border: 1px solid var(--border-color);
+    padding-left: 14px;
+}
+
+.right-container {
+    gap: 1.71rem;
+}
